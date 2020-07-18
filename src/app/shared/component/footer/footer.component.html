@@ -1,0 +1,57 @@
+<section class="bg-black" *ngIf="(item$ | async)['prefooter'] as item">
+  <div class="container py-4">
+    <div class="row">
+      <div class="c-md-1 align-self-center">
+        <img [src]="item.img" alt="">
+      </div>
+      <div class="c-md-7">
+        <h2 class="title">{{ item.title }}</h2>
+        <div class="row">
+          <div class="c-6" *ngFor="let data of item.data">
+            <div class="data">
+              <p><a href="tel:{{data.number}}">{{data.number}}</a></p>
+              <p>{{ data.text }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-md-4 align-self-center">
+        <ul class="social">
+          <li *ngFor="let ico of item.social">
+            <a href="ico.url">
+              <img [src]="ico.ico" class="img-social" alt="{{ ico.name }}">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<footer *ngIf="(item$ | async)['footer'] as items">
+  <div class="container pt-5">
+    <div class="row border-bottom">
+      <div class="c-md-5 mb-4">
+        <p class="mb-0" [innerHTML]="items.left.title"></p>
+        <p class="mb-0" [innerHTML]="items.left.text"></p>
+        <p class="mb-0" [innerHTML]="items.left.content"></p>
+      </div>
+      <div class="c-md-5 mb-4">
+        <p class="mb-0" [innerHTML]="items.center.title"></p>
+        <p class="mb-0" [innerHTML]="items.center.text"></p>
+        <p class="mb-0" [innerHTML]="items.center.content"></p>
+      </div>
+      <div class="c-md-2 mb-4">
+        <img [src]="items.right.img" alt="{{ items.right.alt }}">
+      </div>
+    </div>
+    <div class="row">
+      <div class="c-12">
+        <div class="mt-4">
+          <p class="mb-3" [innerHTML]="items.copyright.copy"></p>
+          <p class="mb-0" [innerHTML]="items.copyright.text"></p>
+          <p [innerHTML]="items.copyright.text2"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,43 @@
+footer{
+  .border-bottom {
+    border-bottom: 1px solid #efefef;
+  }
+}
+
+.title{
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+
+.data{
+  p{
+    color: #fff;
+    font-size: .9rem;
+    margin: 0;
+    a{ color: #fff; font-weight: 400;}
+  }
+}
+
+.c-6{
+  border-right: 1px solid #fff !important;
+  &:last-child {
+    border-right: 0px solid #fff !important;
+  }
+}
+
+.social{
+  list-style:none;
+  li{
+    display: inline-block;
+    padding: 0 10px;
+    a{
+      color: #fff;
+      img{
+
+      }
+    }
+  }
+}
