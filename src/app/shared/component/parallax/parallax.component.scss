@@ -1,0 +1,41 @@
+.back{
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.mask{
+  background: rgba($color: #000000, $alpha: .34);
+}
+
+.view{
+  padding: 2rem 0;
+}
+
+.title{
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.content{
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: rgba($color: #000000, $alpha: .15);
+  &:hover {
+    background: #000;
+  }
+}
+
+@media(max-width: 450px) {
+  .title{
+    font-size: 3rem;
+  }
+}

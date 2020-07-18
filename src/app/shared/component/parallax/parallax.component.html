@@ -1,0 +1,19 @@
+<section *ngIf="(item$ | async)['parallax'] as items" class="back"
+  [ngStyle]="{'background': 'url('+items.img+') top center'}">
+  <div class="mask">
+    <div class="container view">
+      <h1 class="title pl-4">{{items.title}}</h1>
+      <div class="row">
+        <div class="c-md-10 c-lg-6">
+          <p class="content">
+            {{ items.text }}
+          </p>
+          <p class="pt-3">
+            <a [href]="items.link" class="btn">{{ items.buttom }}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
