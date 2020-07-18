@@ -1,0 +1,135 @@
+{
+  "menu": {
+    "logo": "./assets/images/logo/serasa.png",
+    "link": [
+      {"url": "#", "nome": "O que você precisa"},
+      {"url": "#", "nome":  "Segmentos"},
+      {"url": "#", "nome": "Soluções"},
+      {"url": "#", "nome": "Atendimento"}
+    ]
+  },
+  "header": {
+    "fundo": "#1a4683",
+    "img": "./assets/images/banner.png",
+    "subtitle": "Inicio / Histórias Positivas",
+    "title": "Histórias Positivas",
+    "content": "Aqui na Serasa Experian, nós não somos apenas parceiros do negócios. Temos o orgulho de estar ao lado das empresas em suas jornadas inspiradoras de transformação, explorando os benefícios das nossas sofisticadas soluções tecnológicas com os dadso mais precisos do mercado brasileiro."
+  },
+  "blog": [
+    {
+      "type": "image",
+      "img":"./assets/images/posts/01.png",
+      "logo": "./assets/images/logo/uber.png",
+      "text": "A Uber e a Serasa Experian anunciaram no início de julho uma parceria para validação das informações do usuários do aplicativo. A ferramenta qeu fará a checagem ...",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/02.png",
+      "logo": "./assets/images/logo/avon.png",
+      "text": "A Avon contou com a parceria da Serasa Exerian na missão de viabilizar o programa de transformação digital da gigante global do segmento de beleza no Brasil ...",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/03.png",
+      "logo": "./assets/images/logo/rchlo.png",
+      "text": "Gigante do varejo utilizou soluções para automatizar a tomada de decisões de crédito para cartões e melhorar experiência dos clientes.",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/04.png",
+      "logo": "./assets/images/logo/banco-original.png",
+      "text": "O Banco Original, primeiro banco no Brasil a proporcionar abertura de conta corrente 100% digital, e a Serasa Experian firmaram parceria para aplicar o uso da ...",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/05.png",
+      "logo": "./assets/images/logo/banco-original.png",
+      "text": "O Banco Original, primeiro banco no Brasil a proporcionar abertura de conta corrente 100% digital, e a Serasa Experian firmaram parceria para aplicar o uso da ...",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/01.png",
+      "logo": "./assets/images/logo/uber.png",
+      "text": "A Uber e a Serasa Experian anunciaram no início de julho uma parceria para validação das informações do usuários do aplicativo. A ferramenta qeu fará a checagem ...",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/02.png",
+      "logo": "./assets/images/logo/avon.png",
+      "text": "A Avon contou com a parceria da Serasa Exerian na missão de viabilizar o programa de transformação digital da gigante global do segmento de beleza no Brasil ...",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/03.png",
+      "logo": "./assets/images/logo/rchlo.png",
+      "text": "Gigante do varejo utilizou soluções para automatizar a tomada de decisões de crédito para cartões e melhorar experiência dos clientes.",
+      "link": "#",
+      "buttom": "Saiba mais"
+    },
+    {
+      "type": "image",
+      "img":"./assets/images/posts/04.png",
+      "logo": "./assets/images/logo/banco-original.png",
+      "text": "O Banco Original, primeiro banco no Brasil a proporcionar abertura de conta corrente 100% digital, e a Serasa Experian firmaram parceria para aplicar o uso da ...",
+      "link": "#",
+      "buttom": "Saiba mais"
+    }
+  ],
+  "parallax": {
+    "img": "./assets/images/parallax.png",
+    "title": "Portal de Conteúdo",
+    "text": "Para nós, é um orgulho poder apoiar as jornadas de transformação dos nossos parceiros de negócios. Entenda o poder da inovação e dos dados e saiba o que nós podemos fazer, também pelo desenvolvimento da sua empresa!",
+    "buttom": "Saiba mais",
+    "link": "#"
+  },
+  "prefooter": {
+    "img":"./assets/images/logo/serasa-branco.png",
+    "title": "Televendas",
+    "data": [
+      { "number":"3004-7428", "text": "capitais e regiões metropolitanas" },
+      { "number":"0800-773-7728", "text": "demais localidades (apenas telefone fixo)" }
+    ],
+    "social": [
+      { "ico": "./assets/images/social/twitter.png", "name": "@twitter", "url": "#"},
+      { "ico": "./assets/images/social/facebook.png", "name": "@facebook", "url": "#"},
+      { "ico": "./assets/images/social/instagram.png", "name": "@instagram", "url": "#"},
+      { "ico": "./assets/images/social/linkedin.png", "name": "@linkedin", "url": "#"}
+    ]
+  },
+  "footer": {
+    "left": {
+      "title": "Serasa Experrian - São                Paulo",
+      "text": "Alameda dos Quinimuras, 187, Planalto Paulista, São Paulo, SP - CEP 04068900",
+      "content": "CNPJ 62.173.620/0001-80"
+    },
+    "center": {
+      "title": "Serasa Experrian - São Carlos",
+      "text": "Av. Doutor Heitor José Reali, 360, São Carlos, SP - CEP 1357135",
+      "content": "CNPJ 62.173.620/0093-06"
+    },
+    "right": {
+      "img": "./assets/images/logo/ssl.png",
+      "alt": "Serasa Experian"
+    },
+    "copyright": {
+      "copy": "©2018 Experian Information Solutions, Inc. Experian Marketing Services All rights reserved",
+      "text": "Experian and the Experian marks used herein are service marks or registered trademarks of Experian Informations Solutions, Inc.",
+      "text2": "Other product and company names mentioned herein are the property of thei    r respective owners."
+    }
+  }
+}
+
