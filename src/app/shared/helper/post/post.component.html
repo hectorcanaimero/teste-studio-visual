@@ -1,0 +1,40 @@
+<div class="card" *ngIf="id%5 !== 0 else global">
+  <img [src]="post.img" alt="">
+  <div class="content">
+    <div class="logo">
+      <img [src]="post.logo" alt="Logo">
+    </div>
+    <p [innerHTML]="post.text"></p>
+    <div class="readmore">
+      <p>
+        <a [href]="post.link" class="btn">
+          {{ post.buttom }}
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+<ng-template #global>
+  <div class="card">
+    <div class="row">
+      <div class="c-md-8">
+        <img [src]="post.img" alt="">
+      </div>
+      <div class="c-md-4">
+        <div class="content margin-top">
+          <div class="logo">
+            <img [src]="post.logo" alt="Logo">
+          </div>
+          <p [innerHTML]="post.text"></p>
+          <div class="readmore">
+            <p>
+              <a [href]="post.link" class="btn">
+                {{ post.buttom }}
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
